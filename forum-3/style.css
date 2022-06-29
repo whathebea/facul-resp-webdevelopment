@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    max-width: 1124px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.pages {
+    display: flex;
+}
+
+.pages__item {
+    border: 1px solid rgb(227, 227, 227);
+    padding: 0.825rem;
+    color: rgb(50, 129, 255);
+    transition: 0.25s;
+}
+.pages__item:hover {
+    background-color: rgb(227, 227, 227);
+    color: rgb(20, 77, 168);
+}
+.pages li:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.pages li:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
